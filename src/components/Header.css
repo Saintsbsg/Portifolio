@@ -1,0 +1,35 @@
+.main-header{
+    border-bottom: .3px solid grey;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+  margin-left: 32px;
+  list-style: none;
+}
+
+.nav-link {
+    color:  white;
+    text-decoration: none;
+}
+
+.icon{
+    margin-right: 1em;
+    color: rgb(89, 220, 253, 1);
+}
+
+.name-color{
+    color: rgb(89, 220, 253, 1);
+}
+
+.active{
+    color: rgb(89, 220, 253, 1);
+}
