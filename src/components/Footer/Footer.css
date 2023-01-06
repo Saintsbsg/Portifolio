@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid  grey;
+    max-height: 90px;
+    box-sizing: border-box;
+}
+
+.footer i {
+    color: #fff;
+    font-size: 2em;
+    transition: color 1s linear;
+}
+
+.footer p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;    
+}
+
+.footer i:hover {
+    color: rgb(89, 220, 253, 1);
+    font-size: 2.5em;
+}
+

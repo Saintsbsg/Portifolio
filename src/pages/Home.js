@@ -1,11 +1,12 @@
-import React from 'react'
+import HomeIcons from '../components/HomeIcons'
+
 
 const Home = () => {
   return (
     <div>
-        <h1>Gabriel Santos</h1>
+      <HomeIcons/>
     </div>
   )
 }
 
-export default Home
+export default  Home

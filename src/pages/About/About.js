@@ -1,10 +1,10 @@
-import React from 'react'
+import './About.css'
 
 const About = () => {
   return (
-    <div>
+    <div className='about-content'>
         <h1>Um pouco sobre mim</h1>
-        <p>Inserir texto</p>
+        <p>Inserir Sobre</p>
     </div>
   )
 }

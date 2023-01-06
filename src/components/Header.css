@@ -1,5 +1,5 @@
 .main-header{
-    border-bottom: .3px solid grey;
+    border-bottom: 1px solid grey;
 }
 .nav{
     display: flex;
@@ -30,6 +30,8 @@
     color: rgb(89, 220, 253, 1);
 }
 
+
 .active{
     color: rgb(89, 220, 253, 1);
 }
+

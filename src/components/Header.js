@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className='main-header'>
         <nav className='nav'>
-            <h2><i class="fa-solid fa-code icon"></i>Gabriel <span className='name-color'>Santos</span></h2>
+            <h2><i className="fa-solid fa-code icon"></i>Gabriel <span className='name-color'>Santos</span></h2>
             <ul className='nav-list'>
                 <NavLink to='/' className='nav-link'>
                   <li>Início</li>
