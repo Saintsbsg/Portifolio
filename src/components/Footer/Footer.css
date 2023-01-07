@@ -1,16 +1,35 @@
 .footer{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     border-top: 1px solid  grey;
     box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    padding: 1em;
 }
+
+
+/* .footer p{
+    display: inline;
+    text-align: center;
+    align-content: center;
+}
+
+.footer a{
+    display: inline;
+    text-align: center;
+    align-content: center;
+} */
+
+
 
 .footer i {
     color: #fff;
     font-size: 2em;
     transition: color 1s linear;
+    margin-left: .3em;
 }
 
 
