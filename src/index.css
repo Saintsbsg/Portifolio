@@ -1,9 +1,18 @@
-body {
+body, html {
   margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
   font-family: sans-serif;
   background-color: black;
   color: #fff;
   box-sizing: border-box;
+  scrollbar-color: rgb(89, 220, 253, 1)  rgb(89, 220, 253, 1);
+  scroll-behavior: smooth;
 }
 
+::selection {
+  color: #fff;
+  background: rgb(89, 220, 253, 1) ;
+}
 

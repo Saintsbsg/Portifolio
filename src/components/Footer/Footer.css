@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     border-top: 1px solid  grey;
-    max-height: 90px;
     box-sizing: border-box;
 }
 
@@ -13,11 +13,7 @@
     transition: color 1s linear;
 }
 
-.footer p{
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px;    
-}
+
 
 .footer i:hover {
     color: rgb(89, 220, 253, 1);

@@ -1,11 +1,19 @@
+.container{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  
+}
+
 .icon-section{
     position: relative;
     top: 1%;
-    width: 100%;
+    width: 50%;
     height: 70vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+ 
 }
 
 .icon-section .row{
@@ -17,6 +25,7 @@
     white-space: nowrap;
     font-size: 2em;
     transform:  rotate(0deg);
+    max-height: 70vh;
 }
 
 i{
@@ -94,6 +103,45 @@ i:hover{
 
     100%{
         transform: translatex(0);
+    }
+}
+
+
+.card{
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    right: 10%;
+    border: 1px solid #fff;
+    max-width: 25vw;
+    padding: 1em;
+    font-size: 16px;
+}
+
+
+.card i{
+    color: violet;
+    font-size: 2em;
+}
+
+.card  i{
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%{
+        color: #fff;
+        text-shadow: none;
+    }
+
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%{
+        color: rgb(89, 220, 253, 1);;
+        text-shadow: 0 0 10px rgb(89, 220, 253, 1),
+                    0 0 20px rgb(89, 220, 253, 1),
+                    0 0 40px rgb(89, 220, 253, 1),
+                    0 0 80px rgb(89, 220, 253, 1),
+                    0 0 160px rgb(89, 220, 253, 1),
+                    0 0 400px rgb(89, 220, 253, 1);
     }
 }
 

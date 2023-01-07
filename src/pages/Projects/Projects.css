@@ -1,7 +1,28 @@
 .projects-content{
     width: 100%;
-    height: 70vh;
+    max-height: 60%;
+}
+
+.row{
+    max-width: 100%;
     display: flex;
-    align-content: center;
-    justify-content: center;
+}
+
+.projects-content {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 30%;
+    height: 40%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.projects-content img {
+    width: 100%;
+}
+
+.btn{
+    padding: .5em;
+    border: 1px solid #fff;
+    border-radius: 50%;
 }

@@ -2,6 +2,7 @@ import './HomeIcons.css'
 
 const HomeIcons = () => {
   return (
+    <div className='container'>
     <div className='icon-section'>
     <div className='row'>
         <div>
@@ -535,6 +536,12 @@ const HomeIcons = () => {
           <i className="fa-solid fa-album"></i>
           <i className="fa-solid fa-server"></i>
         </div> 
+
+    </div>
+    </div>
+    <div className='card'>
+        <h1>Gabriel Santos <span>Desenvolvedor Front-End</span> <i className="fa-solid fa-terminal"></i></h1>
+        
     </div>
     </div>
   )

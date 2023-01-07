@@ -1,7 +1,33 @@
-.about-content{
-    width: 100%;
+.about-container{
+    width: 60%;
     height: 70vh;
+    margin: .4em auto;
+    box-sizing: border-box;
+}
+
+.about-container h1{
+    margin-top: 3em;
+}
+
+.about-content{
+    border: 1px solid #fff;
     display: flex;
     align-content: center;
+    flex-direction: column;
     justify-content: center;
+    padding: 1em;
+    overflow: scroll;
+    max-height: 50vh;
+}
+
+.about-title{
+    color: rgb(89, 220, 253, 1);
+}
+
+.about-content:hover{
+    border-color: rgb(89, 220, 253, 1);
+}
+
+.about-content i {
+    font-size: 2em;
 }
