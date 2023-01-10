@@ -84,7 +84,7 @@ i{
 } 
 
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 430px) and (min-width: 390px){
     .btn{
         padding: .5em 2.8em;
     }
