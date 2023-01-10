@@ -540,7 +540,7 @@ const HomeIcons = () => {
     </div>
   </div>*/}
     <div className='card'>
-        <h1>Gabriel Santos <span>Desenvolvedor Front-End</span> <i className="fa-solid fa-terminal"></i></h1>
+        <h1>Gabriel Santos, <br/> <span>Desenvolvedor Front-End</span> <i className="fa-solid fa-terminal"></i></h1>
         
     </div>
     </div>
