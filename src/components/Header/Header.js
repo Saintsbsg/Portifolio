@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {NavLink} from  'react-router-dom';
 import "./Header.css"
-import Logo from '../assets/logo/png/gs-high-resolution-logo-black-on-transparent-background.png'
+import Logo from '../../assets/logo/png/gs-high-resolution-logo-black-on-transparent-background.png'
 
 
 

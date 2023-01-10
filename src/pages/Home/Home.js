@@ -1,12 +1,13 @@
 import AnimatedPage from '../../components/AnimatedPage/AnimatedPage'
-import HomeIcons from '../../components/HomeIcons'
 import './Home.css'
 
 const Home = () => {
   return (
     <AnimatedPage>
-    <div className='container'>
-      <HomeIcons/>
+    <div className='home-container'>
+    <div className='card'>
+        <h1>Gabriel Santos, <br/> <span>Desenvolvedor Front-End</span> <i className="fa-solid fa-terminal"></i></h1> 
+    </div>
     </div>
     </AnimatedPage>
   )
