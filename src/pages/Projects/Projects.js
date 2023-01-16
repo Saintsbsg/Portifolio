@@ -18,7 +18,7 @@ const Projects = () => {
       
 
       <div className='projects-content'>
-        <img src={Grid_testimonials} alt="" />"https://github.com/Saintsbsg/grid_testimonials"
+        <img src={Grid_testimonials} alt="" />
         <div className='btn-container'>
         <a href="https://github.com/Saintsbsg/grid_testimonials" className='btn'><i className="fa-brands fa-square-github"></i></a>
         <a href="https://saintsbsg.github.io/grid_testimonials/" className='btn'><i className="fa-solid fa-globe"></i></a>
